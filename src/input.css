@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Inter';
+}
+
+.section {
+    
+}
+
+.infinite-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  
+    transform: translateZ(0);
+    background-image: url(https://pro.chakra-ui.com/screenshots/hero.png);
+    background-size: contain;
+    -webkit-animation: none;
+    animation: none;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: AnimationMoveUpDown 120s linear infinite;
+    animation: AnimationMoveUpDown 120s linear infinite;
+}
